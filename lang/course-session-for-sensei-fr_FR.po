@@ -1,0 +1,370 @@
+# Copyright (C) 2014 Course Session For Sensei
+# This file is distributed under the same license as the Course Session For Sensei package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Course Session For Sensei\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/WordPress-Plugin-Template\n"
+"POT-Creation-Date: 2018-06-12 17:55+0200\n"
+"PO-Revision-Date: 2018-06-21 11:48+0200\n"
+"Last-Translator: \n"
+"Language-Team: Open-DSI <info@open-dsi.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e;_x;esc_attr_e\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+"X-Poedit-SearchPathExcluded-1: includes/lib/class-course-session-for-sensei-"
+"admin-api.php\n"
+"X-Poedit-SearchPathExcluded-2: includes/class-course-session-for-sensei-"
+"settings.php\n"
+"X-Poedit-SearchPathExcluded-3: includes/lib/class-wp-term-meta-ui.php\n"
+
+#: includes/class-course-session-for-sensei-admin.php:68
+msgid "(Duplicate)"
+msgstr ""
+
+#: includes/class-course-session-for-sensei-controller.php:178
+msgid "Course Sessions"
+msgstr "Journées"
+
+#: includes/class-course-session-for-sensei-controller.php:179
+#: templates/single-course-session.php:40
+#: templates/single-course/lesson-course-sessions.php:40
+#: templates/single-course/module-course-sessions.php:44
+msgid "Course Session"
+msgstr "Journée"
+
+#: includes/class-course-session-for-sensei-controller.php:181
+msgid ""
+"Manage Session content and date for your classroom teaching or on-site "
+"training. Group them and link them to Sensei LMS courses. Finally, select "
+"where sessions will appear on the course page, in between modules or lessons."
+msgstr ""
+"Gérer le contenu et la date des Journées de cours ou de formation sur site. "
+"Groupez ces journées en sessions et associez les aux cours Sensei. "
+"Finalement, sélectionnez l'ordre dans lequel apparaîtront les journées sur "
+"la page du cours, entre les séquences et les modules."
+
+#: includes/class-course-session-for-sensei-controller.php:211
+msgid "Groups of Sessions"
+msgstr "Sessions"
+
+#: includes/class-course-session-for-sensei-controller.php:212
+msgid "Group of Sessions"
+msgstr "Session"
+
+#: includes/class-course-session-for-sensei-controller.php:369
+msgid "Course Session For Sensei"
+msgstr "Journées et Sessions pour Sensei"
+
+#: includes/class-course-session-for-sensei-controller.php:374
+msgid "Please activate the Sensei plugin first and then reactivate the plugin."
+msgstr "Veuillez d'abord activer le plugin Sensei, puis réactivez le plugin."
+
+#: includes/class-course-session-for-sensei-course-session-field.php:55
+#: includes/class-course-session-for-sensei-module-date.php:49
+msgid "Date"
+msgstr "Date"
+
+#: includes/class-course-session-for-sensei-course-session-field.php:91
+msgid "Course Session Date"
+msgstr "Date de la Journée"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:47
+#: includes/class-course-session-for-sensei-module-date.php:140
+msgid "Course"
+msgstr "Cours"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:48
+msgid "Courses"
+msgstr "Cours"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:50
+msgid "Select the course that this group of sessions will belong to."
+msgstr "Sélectionner le cours auquel cette session appartiendra."
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:113
+msgid "Duplicate this course with its lessons"
+msgstr ""
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:118
+msgid "Duplicate (with lessons)"
+msgstr ""
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:249
+#: includes/class-course-session-for-sensei-order.php:68
+#: includes/class-course-session-for-sensei-order.php:69
+msgid "Session Order"
+msgstr "Ordre des Journées"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-course.php:302
+msgid "Order"
+msgstr "Ordre"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-end-date.php:41
+#: includes/class-course-session-for-sensei-group-of-sessions-end-date.php:42
+msgid "End Date"
+msgstr "Date de Fin"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-end-date.php:44
+msgid "Select the date this group of sessions ends on."
+msgstr "Sélectionner la date à laquelle cette session se termine."
+
+#: includes/class-course-session-for-sensei-group-of-sessions-start-date.php:41
+#: includes/class-course-session-for-sensei-group-of-sessions-start-date.php:42
+msgid "Start Date"
+msgstr "Date de Début"
+
+#: includes/class-course-session-for-sensei-group-of-sessions-start-date.php:44
+msgid "Select the date this group of sessions starts on."
+msgstr "Sélectionner la date à laquelle cette session débute."
+
+#: includes/class-course-session-for-sensei-module-access.php:37
+msgid "Access"
+msgstr "Accès"
+
+#: includes/class-course-session-for-sensei-module-access.php:44
+msgid "Restrict access before the module opening date."
+msgstr "Restreindre l'accès avant la date d'ouverture du module."
+
+#: includes/class-course-session-for-sensei-module-access.php:83
+msgid "Allow"
+msgstr "Autoriser"
+
+#: includes/class-course-session-for-sensei-module-access.php:93
+msgid "Restrict"
+msgstr "Restreindre"
+
+#: includes/class-course-session-for-sensei-module-date.php:56
+msgid "Select the module opening date."
+msgstr "Sélectionner la date d'ouverture du module."
+
+#: includes/class-course-session-for-sensei-order.php:91
+msgid "Order Sessions"
+msgstr "Ordonner les Journées"
+
+#: includes/class-course-session-for-sensei-order.php:108
+msgid "The session order has been saved for this group."
+msgstr "L'ordre des journées a été enregistré pour cette session."
+
+#: includes/class-course-session-for-sensei-order.php:126
+msgid "Select a group of sessions"
+msgstr "Sélectionner une session"
+
+#: includes/class-course-session-for-sensei-order.php:146
+msgid "Select"
+msgstr "Sélectionner"
+
+#: includes/class-course-session-for-sensei-order.php:275
+msgid "Save session order"
+msgstr "Enregistrer l'ordre des journées"
+
+#: includes/class-course-session-for-sensei-order.php:281
+msgid "Edit group of sessions"
+msgstr "Éditer la session"
+
+#: includes/class-course-session-for-sensei-order.php:856
+msgid "Search for courses"
+msgstr "Rechercher des cours"
+
+#: includes/class-course-session-for-sensei-templates.php:414
+msgid "Next course session"
+msgstr "Journée suivante"
+
+#: includes/class-course-session-for-sensei-templates.php:430
+msgid "Previous course session"
+msgstr "Journée précédente"
+
+#: includes/class-course-session-for-sensei-templates.php:455
+msgid "Back to: "
+msgstr ""
+
+#: includes/class-course-session-for-sensei-templates.php:469
+msgid "Back to the course"
+msgstr "Retour au cours"
+
+#: includes/class-course-session-for-sensei-templates.php:479
+msgid "Back to the group of sessions"
+msgstr "Retour à la session"
+
+#: includes/class-course-session-for-sensei-templates.php:796
+msgid "Future courses"
+msgstr "Formation à venir"
+
+#: includes/class-course-session-for-sensei.php:294
+#: includes/class-course-session-for-sensei.php:303
+msgid "Cheatin&#8217; huh?"
+msgstr "On triche, hein?"
+
+#: includes/functions-group-of-sessions.php:284
+#, php-format
+msgid "%1$s &mdash; %2$s"
+msgstr ""
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:104
+msgid "Add New"
+msgstr "Ajouter Nouvelle"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:105
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:107
+#, php-format
+msgid "Add New %s"
+msgstr "Ajouter une nouvelle %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:106
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:104
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:107
+#, php-format
+msgid "New %s"
+msgstr "Nouvelle %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:108
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:103
+#, php-format
+msgid "All %s"
+msgstr "Toutes les %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:109
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:105
+#, php-format
+msgid "View %s"
+msgstr "Afficher %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:110
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:111
+#, php-format
+msgid "Search %s"
+msgstr "Rechercher dans les %s"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:111
+#, php-format
+msgid "No %s Found"
+msgstr "Aucune %s trouvée"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:112
+#, php-format
+msgid "No %s Found In Trash"
+msgstr "Aucune %s trouvée dans la Corbeille"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:113
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:109
+#, php-format
+msgid "Parent %s"
+msgstr "%s parent"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:157
+#, php-format
+msgid "%1$s updated. %2$sView %3$s%4$s."
+msgstr "%1$s mise à jour. %2$sVisualiser %3$s%4$s."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:158
+msgid "Custom field updated."
+msgstr "Champ personnalisé mis à jour."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:159
+msgid "Custom field deleted."
+msgstr "Champ personnalisé supprimé."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:160
+#, php-format
+msgid "%1$s updated."
+msgstr "%1$s mise à jour."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:161
+#, php-format
+msgid "%1$s restored to revision from %2$s."
+msgstr "%1$s restaurée depuis la révision %2$s."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:162
+#, php-format
+msgid "%1$s published. %2$sView %3$s%4s."
+msgstr "%1$s publiée. %2$sVisualiser %3$s%4s."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:163
+#, php-format
+msgid "%1$s saved."
+msgstr "%1$s sauvegardée."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:164
+#, php-format
+msgid "%1$s submitted. %2$sPreview post%3$s%4$s."
+msgstr "%1$s soumis. %2$sPrévisualiser l'article%3$s%4$s."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:165
+#, php-format
+msgid "%1$s scheduled for: %2$s. %3$sPreview %4$s%5$s."
+msgstr "%1$s programmé pour: %2$s. %3$sPrévisualiser %4$s%5$s."
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:165
+msgid "M j, Y @ G:i"
+msgstr "j M Y @ G:i"
+
+#: includes/lib/class-course-session-for-sensei-post-type.php:166
+#, php-format
+msgid "%1$s draft updated. %2$sPreview %3$s%4$s."
+msgstr "%1$s brouillon mis à jour. %2$sPrévisualiser %3$s%4$s."
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:106
+#, php-format
+msgid "Update %s"
+msgstr "Mettre à jour %s"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:108
+#, php-format
+msgid "New %s Name"
+msgstr "Nom de la nouvelle %s"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:110
+#, php-format
+msgid "Parent %s:"
+msgstr "%s parent:"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:112
+#, php-format
+msgid "Popular %s"
+msgstr "%s populaires"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:113
+#, php-format
+msgid "Separate %s with commas"
+msgstr "Séparer les %s par des virgules"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:114
+#, php-format
+msgid "Add or remove %s"
+msgstr "Ajouter ou Supprimer %s"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:115
+#, php-format
+msgid "Choose from the most used %s"
+msgstr "Choisir parmi les %s les plus utilisés"
+
+#: includes/lib/class-course-session-for-sensei-taxonomy.php:116
+#, php-format
+msgid "No %s found"
+msgstr "Aucun %s trouvé"
+
+#: templates/archive-course-session.php:29
+msgid "No course sessions found that match your selection."
+msgstr "Aucune journée n'a été trouvée avec ces critères de sélection."
+
+#: templates/single-course/modules.php:121
+msgid "Lessons"
+msgstr ""
+
+#: templates/single-course/modules.php:142
+msgid "Free Preview"
+msgstr ""
+
+#~ msgid "Date (%s)"
+#~ msgstr "Date (%s)"

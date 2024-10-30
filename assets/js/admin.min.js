@@ -1,0 +1,1 @@
+jQuery(document).ready(function(a){cssDatepicker()}),cssDatepicker=function(){jQuery(".css-datepicker").datepicker({dateFormat:"yy-mm-dd",onSelect:function(){if("term-start_date"===this.id){var a=jQuery("#term-end_date"),b=a.datepicker("getDate"),c=jQuery(this).datepicker("getDate");b<c&&a.datepicker("setDate",c),a.datepicker("option","minDate",c)}}})};

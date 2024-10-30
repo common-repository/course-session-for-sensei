@@ -1,0 +1,73 @@
+/**
+ * Admin CSS
+ *
+ * @since 1.0.0
+ * @copyright WooCommerce
+ */
+
+.course-session-order-select-course-submit {
+  vertical-align: top;
+}
+.sortable-course-session-list {
+  border: 1px solid #e5e5e5;
+  -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+  box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+.sortable-course-session-list li {
+  cursor: move;
+  background: #FFF;
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+.sortable-course-session-list li span:before {
+  font-family: dashicons;
+  content: "\f333";
+  font-size: 170%;
+  vertical-align: bottom;
+  margin-right: 10px;
+  color: #BDBDBD;
+}
+.sortable-course-session-list li.ui-sortable-helper {
+  zoom: 1;
+  filter: alpha(opacity=70);
+  opacity: 0.7;
+}
+.sortable-course-session-list li.ui-sortable-helper span:before {
+  color: #444;
+}
+.sortable-course-session-list li.alternate {
+  background: #F9F9F9;
+}
+.sortable-course-session-list .ui-sortable-placeholder {
+  background: #EBEBEB !important;
+  border: 1px dashed #DDDDDD;
+  visibility: visible !important;
+  margin: 3px;
+}
+
+/* Fixes display issue in Chrome for Windows */
+.chosen-container-multi .chosen-choices li.search-field input[type="text"] {
+  min-height: 25px !important;
+}
+
+/* Exclude items (but keep as drop targets). */
+.sortable-course-session-list li.ui-state-disabled {
+  cursor: default;
+}
+.sortable-course-session-list li.ui-state-disabled span:before {
+  color: transparent;
+}
+
+/* Modules */
+.sortable-course-session-list li.course-session.before-lesson {
+  font-size: inherit;
+}
+.sortable-course-session-list li.module.ui-state-disabled,
+.sortable-course-session-list li.course-session {
+ font-size: larger;
+}
+.sortable-course-session-list li.module.ui-state-disabled span:before {
+  content: "";
+  margin-right: 0;
+}

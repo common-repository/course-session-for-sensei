@@ -1,0 +1,126 @@
+.module .course-session {
+
+  /*padding-left: 3.618em;*/
+}
+.module .course-session span {
+
+  display: block;
+  padding: .618em .618em .618em 20px;
+}
+.module .module-lessons .course-session a::before,
+.module .module-lessons .course-session a:hover::before,
+.module .module-lessons .course-session a::before {
+  content: '\f073';
+}
+
+/**
+ * Module level session.
+ */
+.course article.course-session header {
+  background: #fff;
+}
+
+.course article.course-session h2 {
+  padding: 0;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+article.course-session a {
+  display: block;
+  padding: .6em 0 .6em 20px;
+  background: rgba(0,0,0,.03);
+  border-top: 1px solid rgba(0,0,0,.05);
+  border-bottom: 1px solid rgba(0,0,0,.05);
+}
+
+article.course-session a:hover {
+  background: rgba(0,0,0,.01);
+  text-decoration: none;
+}
+
+article.course-session a::before {
+  font-weight: 400;
+  font-family: FontAwesomeSensei,FontAwesome;
+  line-height: 1em;
+  width: 1em;
+}
+
+article.course-session a::before {
+  display: inline-block;
+  margin-right: 10px;
+  content: '\f073';
+  color: rgba(0,0,0,.2);
+}
+
+article.course-session a:hover::before {
+  color: rgba(0, 0, 0, .3);
+}
+
+/**
+ * Dates
+ */
+.group-of-sessions, .course-session {
+  position: relative;
+}
+
+.course-session-container .status,
+.course-session .status,
+.article-container .group-of-sessions-status {
+  padding: .382em 1em;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  color: #fff;
+  font-weight: normal;
+  background: #c6c6c6;
+  display: inline-block;
+}
+
+.group-of-sessions .group-of-sessions-status,
+.course-session .course-session-status {
+
+  position: absolute;
+  right: 20px;
+  top: 0.3em;
+  margin: 0 !important;
+  font-size: inherit !important;
+  font-weight: normal !important;
+}
+
+.module .module-status {
+  font-weight: normal !important;
+}
+
+/* Date status preceded by Sensei module status like In progress */
+.module-status.date ~ .module-status {
+  top: 0.3em;
+}
+.module .module-status + .module-status.date{
+  top: 2.3em;
+}
+
+.course article.course-session .course-session-status,
+.course-session-container article.course-session .course-session-status {
+  top: 1em;
+}
+
+
+/* Hide lessons for module which has restricted status */
+/*.module.restricted .module-lessons {
+
+  display: none;
+}*/
+
+/* Disable module link */
+/*.module.restricted header h2 a {
+  pointer-events: none;
+  cursor: default;
+}*/
+
+/* Add lock icon before restricted module status */
+.module .status.restricted::before {
+  content: "\f023";
+}
